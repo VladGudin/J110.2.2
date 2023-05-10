@@ -13,6 +13,7 @@ public class Main {
         Docx[] Docxs = new Docx[2];
         Docxs[0] = new Docx("name1",1111,5);
         Docxs[1] = new Docx("name2",2222,9);
+
         Docx.printAll(Docxs);// Метод наследуется
 
 
